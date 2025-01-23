@@ -9,25 +9,24 @@
 <body>
     <div class="container">
         <form class="form" name="kankulyator">
-          <input type="text" id="
-          displey" disabled class="result" value="0">
+          <input type="text" id="display" disabled class="result" placeholder="0">
           <div class="wrapper">
-            <input type="button" value="7" onclick="kankulyator.displey.value+='7'">
-            <input type="button" value="8">
-            <input type="button" value="9">
-            <input type="button" value="*">
-            <input type="button" value="4">
-            <input type="button" value="5">
-            <input type="button" value="6">
-            <input type="button" value="-">
-            <input type="button" value="1">
-            <input type="button" value="2">
-            <input type="button" value="3">
-            <input type="button" value="+">
-            <input type="button" value="AC">
-            <input type="button" value="0">
-            <input type="button" value="=">
-            <input type="button" value="/">
+            <input type="button" value="7" onclick="kankulyator.display.value+='7'">
+            <input type="button" value="8" onclick="kankulyator.display.value+='8'">
+            <input type="button" value="9" onclick="kankulyator.display.value+='9'">
+            <input type="button" value="*" onclick="kankulyator.display.value+='*'">
+            <input type="button" value="4" onclick="kankulyator.display.value+='4'">
+            <input type="button" value="5" onclick="kankulyator.display.value+='5'">
+            <input type="button" value="6" onclick="kankulyator.display.value+='6'">
+            <input type="button" value="-" onclick="kankulyator.display.value+='-'">
+            <input type="button" value="1" onclick="kankulyator.display.value+='1'">
+            <input type="button" value="2" onclick="kankulyator.display.value+='2'">
+            <input type="button" value="3" onclick="kankulyator.display.value+='3'">
+            <input type="button" value="+" onclick="kankulyator.display.value+='+'">
+            <input type="button" value="AC" onclick="kankulyator.display.value+=' '">
+            <input type="button" value="0" onclick="kankulyator.display.value+='0'">
+            <input type="button" value="=" onclick="kankulyator.display.value=eval(kankulyator.display.value)">
+            <input type="button" value="/" onclick="kankulyator.display.value+='/'">
         </div>
     </div>
 </body>
